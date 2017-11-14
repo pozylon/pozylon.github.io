@@ -18,7 +18,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "./deploy.sh"
   },
   "dependencies": {
     "next": "^3.2.2",

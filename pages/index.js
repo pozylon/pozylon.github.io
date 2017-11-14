@@ -10,7 +10,7 @@ import Startup from '../components/Startup';
 const Index = () => (
   <Layout title="Pascal creates Web Apps">
     <header>
-      <h1>Pascal Kaufmann</h1>
+      <h1>pascal.earth</h1>
       <p>Full stack developer from Zurich (Switzerland)</p>
       <address>
         Pascal Kaufmann<br />
@@ -121,7 +121,7 @@ const Index = () => (
           </p>
         </Experience>
       </div>
-      {/* <small>Please visit <a href="https://pave.tech">Pave Studios for project descriptions</a></small> */}
+      <small>Just drop me an E-Mail if you want specific references and cases, I will happily show it to you</small>
     </section>
     {/* <section>
       <h2>Startups launched</h2>

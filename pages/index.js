@@ -11,52 +11,65 @@ const Index = () => (
   <Layout title="Pascal creates Web Apps">
     <header>
       <h1>Pascal Kaufmann</h1>
-      <small>Software Engineer</small>
+      <p>Full stack developer from Zurich (Switzerland)</p>
       <address>
-        Pascal Kaufmann
-        c/o Reactive Code GmbH
-        Sihlquai 131
-        8005 Zürich
-
-        <a href="mailto:pascal@reactive.one">pascal@reactive.one</a>
-        <a href="reactive.one">reactive.one</a>
+        Pascal Kaufmann<br />
+        c/o Reactive Code GmbH<br />
+        Sihlquai 131<br />
+        8005 Zürich<br />
+        <br />
+        <a href="mailto:pascal@reactive.one">pascal@reactive.one</a><br />
+        <a href="reactive.one">reactive.one</a><br />
       </address>
     </header>
     <section>
       <h2>Personal Statement</h2>
-      <p>25 years old Art Director & Freelance Designer from
-          Valladolid (Spain) currently based in Madrid. I love everything that has
-          to do with Web design & development, Graphic design, Packaging, Industrial
-          design and I feel a true devotion for typography.
-          I have 4 years of experience working as a freelance and working on an studio,
-          but and I’m ready for visiting other countries & work for any design studio!
-          I love working with people, specially
-          if they have the same passion I have for what they do.
-          Why dont we work together? Go futher down to see why I am the man you need to hire!
+      <p>
+        I love everything that has to do with IT. Beginning at age 5 I learned how to
+        start computer games on my dad's PC (DOS shell). Since then I explored almost every
+        aspect in computing. I graduated as a System Engineer, then entered the
+        parallel world of SAP consulting, tried my best as a team leader at a big company,
+        studied a bit in economics before finally turned back to 100% coding.
+        With more than 10 years of professional software development experience, I
+        still feel truly passionate and hungry about software craftsmanship.
       </p>
     </section>
     <section>
       <h2>My Specialties</h2>
-      <p>Web Applications, B2B Integration, Devops</p>
+      <ul>
+        <li>Web Applications <small>Coding</small></li>
+        <li>B2B Integrations <small>Architecture, Consulting & API Integration</small></li>
+        <li>Dev-ops <small>Containers</small></li>
+      </ul>
     </section>
     <section>
       <h2>Engineering Skills</h2>
       <div className="engineering">
-        <h3>Coding</h3>
-        <Skill points={0}>React</Skill>
-        <Skill points={1}>Node</Skill>
-        <Skill points={2}>GraphQL</Skill>
-        <Skill points={3}>MongoDB</Skill>
-        <Skill points={4}>PostgreSQL</Skill>
-        <Skill points={5}>Swift</Skill>
-        <Skill points={5}>RESTful JSON</Skill>
-        <h3>Knowledge</h3>
-        <Skill>Project Management (up to 500 KCHF volumina)</Skill>
-        <Skill>Lead Engineering</Skill>
-        <Skill>Micro-service Architectures</Skill>
-        <Skill>Web Security Auditing (SQL Injection, XSS, XSF, ...)</Skill>
-        <Skill>Supply-chain integration (API, EDI, SAP)</Skill>
-        <Skill>Software Architecture & Continous Delivery</Skill>
+        <div>
+          <h3>Coding</h3>
+          <Skill points={6}>React</Skill>
+          <Skill points={4}>CSS</Skill>
+          <Skill points={2}>Sketch</Skill>
+          <Skill points={7}>Node</Skill>
+          <Skill points={6}>GraphQL</Skill>
+          <Skill points={6}>MongoDB</Skill>
+          <Skill points={3}>PostgreSQL</Skill>
+          <Skill points={6}>Swift</Skill>
+          <Skill points={5}>Objective-C</Skill>
+          <Skill points={7}>RESTful JSON</Skill>
+          <Skill points={3}>PHP</Skill>
+          <Skill points={3}>Python</Skill>
+          <Skill points={2}>Go</Skill>
+        </div>
+        <div>
+          <h3>Knowledge</h3>
+          <Skill>Project Management (up to 500 KCHF volumina)</Skill>
+          <Skill>Lead Engineering</Skill>
+          <Skill>Micro-service Architectures</Skill>
+          <Skill>Web Security Auditing (SQL Injection, XSS, XSF, ...)</Skill>
+          <Skill>Supply-chain integration (API, EDI, SAP)</Skill>
+          <Skill>Software Architecture & Continous Delivery</Skill>
+        </div>
       </div>
     </section>
     <section>
@@ -81,32 +94,36 @@ const Index = () => (
       <Timeline>
         <Item from="2010.08" to="2014.08">
           <p>Eidg. dipl. Wirtschaftsinformatiker HF</p>
-          <p>IFA Zürich</p>
+          <small>IFA Zürich</small>
         </Item>
         <Item from="2003.08" to="2007.08">
           <p>Lehre Informatiker Systemtechnik</p>
-          <p>Berufsschule Uster</p>
+          <small>Berufsschule Uster</small>
         </Item>
       </Timeline>
     </section>
     <section>
       <h2>Work experience</h2>
-      <Experience years={4}>
-        <p>Founder at <a href="https://reactive.one">Reactive Code GmbH</a></p>
-        <p>Web Applications & native Apps</p>
-      </Experience>
-      <Experience years={2}>
-        <p>Team Leader Mobile Process Integration at <a href="https://swisscom.com">Swisscom AG</a></p>
-        <p>Various native iOS Apps & proprietary API integration</p>
-      </Experience>
-      <Experience years={5}>
-        <p>SAP Consultant at <a href="https://swisscom.com">Swisscom AG</a></p>
-        <p>Tech consulting and development for the following R/3 modules: HR, SD, PP, MM.
-          Consulting for: SAP Portal, T-Rex, XI/PI</p>
-      </Experience>
-      <small>Please visit <a href="https://pave.tech">Pave Studios for project descriptions</a></small>
+      <div className="work">
+        <Experience years={4}>
+          <p>Founder at <a href="https://reactive.one">Reactive Code GmbH</a></p>
+          <p>Web Applications & native Apps</p>
+        </Experience>
+        <Experience years={2}>
+          <p>Team Leader Mobile Process Integration at <a href="https://swisscom.com">Swisscom AG</a></p>
+          <p>Various native iOS Apps & API integration</p>
+        </Experience>
+        <Experience years={4}>
+          <p>
+            SAP Consultant at <a href="https://swisscom.com">Swisscom AG</a>.
+            Tech consulting and ABAP development in SAP R/3.
+            Consulting for: SAP Portal, T-Rex, XI/PI
+          </p>
+        </Experience>
+      </div>
+      {/* <small>Please visit <a href="https://pave.tech">Pave Studios for project descriptions</a></small> */}
     </section>
-    <section>
+    {/* <section>
       <h2>Startups launched</h2>
       <Startup>
           KidsPilot
@@ -117,18 +134,28 @@ const Index = () => (
       <Startup>
           Dagobird
       </Startup>
-    </section>
+    </section> */}
     <footer>
-      Pascal Kaufmann 2018
+      <center>Pascal Kaufmann 2018</center>
     </footer>
     <style jsx>{`
       .engineering {
-        max-width: 400px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .engineering > * {
+        min-width: 300px;
       }
       .languages {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+      }
+      .work {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
       }
     `}</style>
   </Layout>

@@ -1,10 +1,9 @@
 import React from 'react';
 import pure from 'recompose/pure';
 
-const Timeline = ({ points, children }) => (
+const Timeline = ({ children }) => (
   <div>
-    {children} ({points})
-    X X X X X
+    {children}
   </div>
 );
 
@@ -12,7 +11,12 @@ export default pure(Timeline);
 
 export const Item = ({ from, to, children }) => (
   <div>
-    {from} {to}
+    <small>From {from} to {to}</small>
     {children}
+    <style jsx>{`
+      div {
+        padding-bottom: 20px;
+      }
+    `}</style>
   </div>
 );

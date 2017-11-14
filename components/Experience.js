@@ -3,8 +3,13 @@ import pure from 'recompose/pure';
 
 const Experience = ({ years, children }) => (
   <div>
-    {children} ({years})
-    X X X X X
+    <span className="huge-year">{years}</span> years of experience
+    {children}
+    <style jsx>{`
+      .huge-year {
+        font-size: 6em;
+      }
+    `}</style>
   </div>
 );
 

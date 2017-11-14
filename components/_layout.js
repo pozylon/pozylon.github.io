@@ -20,7 +20,7 @@ const Layout = ({ title, children }) => (
         padding-bottom: 1em;
         padding-left: 10vw;
         padding-right: 10vw;
-        max-width: 1444px;
+        max-width: 900px;
       }
       h1 {
         font-size: 3em;

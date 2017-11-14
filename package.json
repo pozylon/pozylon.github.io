@@ -1,0 +1,38 @@
+{
+  "name": "pozylon.github.io",
+  "description": "CV",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pozylon/pozylon.github.io.git"
+  },
+  "contributors": [
+    "Pascal Kaufmann <pascal@reactive.one> (https://www.reactive.one)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://pozylon.github.io"
+  },
+  "homepage": "https://pascal.earth",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^3.2.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "recompose": "^0.25.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.7.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0"
+  }
+}

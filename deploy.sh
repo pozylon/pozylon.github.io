@@ -1,5 +1,4 @@
 #!/bin/sh
-nvm use
 npm run build
 git add .
 cp CNAME out/CNAME

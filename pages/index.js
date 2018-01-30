@@ -19,7 +19,7 @@ const Index = () => (
         8005 Zürich<br />
         <br />
         <a href="mailto:pascal@reactive.one">pascal@reactive.one</a><br />
-        <a href="reactive.one">reactive.one</a><br />
+        <a href="https://reactive.one">reactive.one</a><br />
       </address>
     </header>
     <section>

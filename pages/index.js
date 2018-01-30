@@ -47,13 +47,13 @@ const Index = () => (
       <div className="engineering">
         <div>
           <h3>Coding</h3>
-          <Skill points={6}>React</Skill>
+          <Skill points={7}>React</Skill>
           <Skill points={4}>CSS</Skill>
           <Skill points={2}>Sketch</Skill>
           <Skill points={7}>Node</Skill>
-          <Skill points={6}>GraphQL</Skill>
+          <Skill points={7}>GraphQL</Skill>
           <Skill points={6}>MongoDB</Skill>
-          <Skill points={3}>PostgreSQL</Skill>
+          <Skill points={4}>PostgreSQL</Skill>
           <Skill points={6}>Swift</Skill>
           <Skill points={5}>Objective-C</Skill>
           <Skill points={7}>RESTful JSON</Skill>

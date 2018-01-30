@@ -11,7 +11,7 @@ const Index = () => (
   <Layout title="Pascal creates Web Apps">
     <header>
       <h1>pascal.earth</h1>
-      <p>Full stack developer from Zurich (Switzerland)</p>
+      <p>Full Stack Developer & DevOps Engineer from Zurich (Switzerland)</p>
       <address>
         Pascal Kaufmann<br />
         c/o Reactive Code GmbH<br />
@@ -28,10 +28,9 @@ const Index = () => (
         I love everything that has to do with IT. Beginning at age 5 I learned how to
         start computer games on my dad's PC (DOS shell). Since then I explored almost every
         aspect in computing. I graduated as a System Engineer, then entered the
-        parallel world of SAP consulting, tried my best as a team leader at a big company,
-        studied a bit in economics before finally turned back to 100% coding.
-        With more than 10 years of professional software development experience, I
-        still feel truly passionate and hungry about software craftsmanship.
+        parallel world of SAP Consulting, tried my best as a team leader at a big company,
+        studied a bit in economics before I finally found my destiny: programming.
+        With more than 10 years of engineering experience, I still feel truly passionate and hungry about software craftsmanship.
       </p>
     </section>
     <section>
@@ -39,7 +38,7 @@ const Index = () => (
       <ul>
         <li>Web Applications <small>Coding</small></li>
         <li>B2B Integrations <small>Architecture, Consulting & API Integration</small></li>
-        <li>Dev-ops <small>Containers</small></li>
+        <li>DevOps <small>Containers</small></li>
       </ul>
     </section>
     <section>
@@ -111,30 +110,29 @@ const Index = () => (
         </Experience>
         <Experience years={2}>
           <p>Team Leader Mobile Process Integration at <a href="https://swisscom.com">Swisscom AG</a></p>
-          <p>Various native iOS Apps & API integration</p>
+          <p>Various native iOS Apps. API integration into legacy systems</p>
         </Experience>
         <Experience years={4}>
+          <p>SAP Consultant at <a href="https://swisscom.com">Swisscom AG</a></p>
+          <p>Consulting: ABAP, SAP R/3, T-Rex, XI/PI, Portal</p>
+        </Experience>
+        <Experience years={2}>
           <p>
-            SAP Consultant at <a href="https://swisscom.com">Swisscom AG</a>.
-            Tech consulting and ABAP development in SAP R/3.
-            Consulting for: SAP Portal, T-Rex, XI/PI
+            Systems Engineer at <a href="https://uster.com">Uster Technologies AG</a>
           </p>
         </Experience>
       </div>
       <small>Just drop me an E-Mail if you want specific references and cases, I will happily show it to you</small>
     </section>
-    {/* <section>
-      <h2>Startups launched</h2>
+    <section>
+      <h2>Ventures</h2>
       <Startup>
-          KidsPilot
+        KidsPilot
       </Startup>
       <Startup>
-          Koovala
+        Unchained.shop
       </Startup>
-      <Startup>
-          Dagobird
-      </Startup>
-    </section> */}
+    </section>
     <footer>
       <center>Pascal Kaufmann 2018</center>
     </footer>
